@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+
+}
+
+.main {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 0px 2px #2b2b2b 10px;
+
+
+
+
+}
+
+.logo {
+
+    height: 40px;
+    width: 100px;
+    /* background-color: rgba(12, 12, 12, 0.89); */
+    margin-top: 5px;
+    text-align: center;
+    text-wrap: 2px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 0.1px solid rgb(63, 49, 49);
+    box-shadow: 0 0 2px #363636, inset 0 0 9px #3b3a3a;
+
+
+}
+
+#p1 {
+    color: rgb(233, 11, 11);
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    font-size: 24px;
+}
+
+#p2 {
+    color: aliceblue;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    /* background-color: rgba(12, 12, 12, 0.89); */
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Display items horizontally */
+}
+
+li {
+    margin-right: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 223, 223);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+
+}
+
+a:hover {
+    color: #ca2727c5;
+    /* Change the text color on hover */
+}
+
+.search {
+    background-color: black;
+    height: 40px;
+    width: 450px;
+    display: flex;
+    margin-top: 4px;
+    border: 0.1px solid rgb(63, 49, 49);
+    border-radius: 5px;
+    margin-left: 150px;
+    box-shadow: 0 0 2px #363636, inset 0 0 10px #3b3a3a;
+    /* Align input and icon horizontally */
+}
+
+#text {
+
+    /* Take up remaining space in the flex container */
+    padding: 10px;
+    /* Add padding for better visual appearance */
+    border: none;
+    /* Remove default input border */
+    background-color: black;
+    width: 450px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.icon {
+    /* background-color: rgba(12, 12, 12, 0.89); */
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 1px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(63, 49, 49);
+    box-shadow: 0 0 2px #363636, inset 0 0 6px #3b3a3a;
+}
+
+.fa-solid {
+    margin-left: 13px;
+    color: white;
+
+}
+
+.btn button {
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(255, 255, 254);
+    box-shadow: 0 0 3px #363636, inset 0 0 6px #3b3a3a;
+    margin-top: 5px;
+    margin-left: 30px;
+    border: 0.1px solid rgb(63, 49, 49);
+    font-style: italic;
+
+}
+
+button:hover {
+    color: #ca2727c5;
+    border: 1px solid #ca2727c5;
+
+    /* Change the text color on hover */
+}
+
+.search:hover {
+    border: 1px solid #ca2727c5;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    border: 1px solid #ca2727c5;
+    transition: 0.5s;
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+    /* background-color: rgba(19, 18, 18, 0.89); */
+    display: flex;
+    /* Add this line */
+    align-items: center;
+}
+
+.fas {
+    color: aliceblue;
+    margin-left: 32px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.header {
+    width: 1365px;
+    /* Adjusted width for better visibility during testing */
+    background-color: #2b2b2b;
+    overflow: hidden;
+    position: relative;
+    /* Added position:relative for absolute positioning of slides */
+}
+
+.slider-container {
+    height: 500px;
+    width: auto;
+    display: flex;
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    /* Added transition for smooth slide effect */
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+/* Optional styling for control buttons */
+.controller {
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.dic {
+    height: 220px;
+    width: 1370px;
+    background-color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+#h1 {
+    margin-left: 550px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 36px !important;
+    font-weight: bold;
+
+}
+
+.shop-section {
+    display: flex;
+
+    justify-content: space-evenly;
+    background-color: #2b2b2b;
+    height: 300px;
+
+}
+
+.box {
+    height: 240px;
+    width: 39%;
+    background-color: #2b2b2b;
+    overflow: hidden;
+    border-radius: px;
+    /* To prevent the box from expanding when image moves up */
+}
+
+.image1 {
+    height: 100%;
+    /* Make the image fill the container */
+    width: 100%;
+    /* Make the image fill the container */
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    /* Add transition for smooth transformation and box shadow changes */
+
+    /* Additional styles for the initial box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover .image1 {
+    transform: translateY(2px);
+    /* Move the image upward on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    /* Larger box shadow on hover */
+}
+
+.box:active .image1 {
+    transform: translateY(0);
+    /* Reset the transform on click */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    /* Even larger box shadow when clicked */
+}
+.demo{
+    height: 800px;
+     width: 100%;
+    background-image: url(king2.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.demo2{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid rgb(184, 174, 174);
+}
+#discount{
+    color: white;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 36px !important;
+    font-weight: bold;
+}
+
