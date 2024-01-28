@@ -1,0 +1,101 @@
+/* Style for the primary row */
+.row.primary {
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    color: #cfd2d6;
+    padding: 20px;
+}
+
+/* Style for the columns */
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column h3 {
+    color: #cfd2d6;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style for the Connect column */
+.about p {
+    color: #cfd2d6;
+    font-size: 14px;
+}
+
+.social i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #cfd2d6;
+}
+
+/* Style for the Links column */
+.link ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link ul li {
+    margin-bottom: 5px;
+}
+
+.link ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link ul li a:hover {
+    color: #ca2727c5;
+}
+
+/* Style for the Newsletter column */
+.subscribe input[type="email"],
+.subscribe button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.subscribe input[type="email"] {
+    width: 70%;
+}
+
+.subscribe button {
+    width: 30%;
+    background-color: #f31f1fc5;
+        
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #ca2727c5;
+}
+
+/* Style for the footer menu */
+.footer-menu {
+    margin-top: 10px;
+}
+
+.footer-menu a {
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #ca2727c5;
+}
+
+/* Style for the copyright row */
+.row.copyright {
+    background-color:black;
+    color: #cfd2d6;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
